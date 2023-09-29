@@ -8,6 +8,11 @@
     transform: translate(-50%, -50%);
     left:50%
 }
+@media only screen and (max-width: 575.98px) {
+    .certificatehead{
+        font-size: 28px;
+    }
+}
 .samplehead {
     font-family: 'Charmonman';
     position: absolute;
@@ -15,12 +20,26 @@
     left: 50%; /* Horizontal centering */
     transform: translate(-50%, -50%); /* Centering trick */
 }
+@media only screen and (max-width: 575.98px) {
+    .samplehead {
+        font-size: 19px;
+        width: 89%;
+        font-family: 'Carattere';
+    }
+}
 .namehead{
     position: absolute;
     font-family: 'Tenor Sans';
     transform: translate(-50%, -50%);
     top: 45%; /* Vertical centering */
     left: 50%; /* Horizontal centering */
+}
+@media only screen and (max-width: 575.98px) {
+    .namehead{
+        font-size: 17px;
+           font-family: 'Tenor Sans';
+    }
+
 }
 .certificateimg{
   width: 100%;
@@ -35,6 +54,7 @@
     top: 40%; /* Vertical centering */
     left: 50%; /* Horizontal centering */
     width: 280px;
+    height: 19px;
 }
 .subtitletext {
     position: absolute;
@@ -44,6 +64,12 @@
     width: 70%;
     word-wrap: break-word;
     left: 50%; /* Horizontal centering */
+}
+@media only screen and (max-width: 575.98px) {
+    .subtitletext {
+        font-size:13px;
+   
+    }
 }
 .datetext
 {
@@ -55,6 +81,11 @@
     word-wrap: break-word;
     left: 30%; /* Horizontal centering */
 }
+@media only screen and (max-width: 575.98px) {
+    .datetext {
+        font-size:12px;
+    }
+}
 .signaturetext
 {
     position: absolute;
@@ -65,8 +96,22 @@
     word-wrap: break-word;
     left: 70%; /* Horizontal centering */
 }
+@media only screen and (max-width: 575.98px) {
+    .signaturetext {
+        font-size:11px;
+    }
+}
 .usersign{
     font-family: 'The Nautigal';
-    font-size: 22px;
+    font-size: 12px;
     font-weight: 800;
+}
+.downloadbtn{
+    position: absolute;
+    font-family: 'Tenor Sans';
+    transform: translate(-50%, -50%);
+    top: 110%; /* Move the text downwards */
+
+    word-wrap: break-word;
+    left: 50%; /* Horizontal centering */
 }

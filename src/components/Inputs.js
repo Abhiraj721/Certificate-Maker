@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "../App.css"
 export default function Inputs({ name, Setname, subtitle, Setsubtitle, date, Setdate, Signature, Setsignature }) {
+  useEffect(()=>{
+    document.querySelector(".framestore").style.display="none";
+  },[])
   return (
 
     <div>
@@ -43,6 +46,10 @@ export default function Inputs({ name, Setname, subtitle, Setsubtitle, date, Set
   value={Signature}
   onChange={(e) => Setsignature(e.target.value)}
 />
+<button className='button-61' onClick={()=>{
+  document.querySelector(".framestore").style.display="block";
+}}>Change Frame</button>
+<br /><br />
     <button className='button-85'>Submit</button>
     
     </div>

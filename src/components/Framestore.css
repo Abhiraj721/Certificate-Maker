@@ -1,0 +1,25 @@
+.framestore{
+    position: absolute;
+    z-index: 232;
+    top: 23px;
+    background-color: rgb(255, 255, 255);
+  }
+  .frameimg{
+    width: 100%;
+    position: relative;
+  }
+  .crossbtn{
+    position: fixed;
+    right: 22%;
+    z-index: 2322;
+    background-color: transparent;
+border: none;
+  }
+  .crossbtn img{
+    width: 33px;
+  }
+.framestorehead{
+    font-family: 'Tenor Sans';
+    font-weight: 800;
+    
+}
