@@ -1,0 +1,72 @@
+.certificatehead{
+    margin: 0 auto;
+    position: absolute;
+    font-family: 'Federo';
+    font-weight: 800;
+    font-size: 43px;
+    top:20%;
+    transform: translate(-50%, -50%);
+    left:50%
+}
+.samplehead {
+    font-family: 'Charmonman';
+    position: absolute;
+    top: 34%; /* Vertical centering */
+    left: 50%; /* Horizontal centering */
+    transform: translate(-50%, -50%); /* Centering trick */
+}
+.namehead{
+    position: absolute;
+    font-family: 'Tenor Sans';
+    transform: translate(-50%, -50%);
+    top: 45%; /* Vertical centering */
+    left: 50%; /* Horizontal centering */
+}
+.certificateimg{
+  width: 100%;
+}
+.playground
+{
+    position: relative;
+}
+.borderdivide{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 40%; /* Vertical centering */
+    left: 50%; /* Horizontal centering */
+    width: 280px;
+}
+.subtitletext {
+    position: absolute;
+    font-family: 'Tenor Sans';
+    transform: translate(-50%, -50%);
+    top: 55%; /* Move the text downwards */
+    width: 70%;
+    word-wrap: break-word;
+    left: 50%; /* Horizontal centering */
+}
+.datetext
+{
+    position: absolute;
+    font-family: 'Tenor Sans';
+    transform: translate(-50%, -50%);
+    top: 85%; /* Move the text downwards */
+    width: 70%;
+    word-wrap: break-word;
+    left: 30%; /* Horizontal centering */
+}
+.signaturetext
+{
+    position: absolute;
+    font-family: 'Tenor Sans';
+    transform: translate(-50%, -50%);
+    top: 85%; /* Move the text downwards */
+    width: 70%;
+    word-wrap: break-word;
+    left: 70%; /* Horizontal centering */
+}
+.usersign{
+    font-family: 'The Nautigal';
+    font-size: 22px;
+    font-weight: 800;
+}
